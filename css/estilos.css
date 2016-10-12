@@ -1,0 +1,56 @@
+h1 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00FF00; }
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FE2E64; }
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #8258FA; }
+
+body {
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #FF0000; }
+
+.pagina {
+  max-width: 940px;
+  min-width: 720px;
+  margin: auto;
+  padding: 20px;
+  border: 4px double;
+  background-color: #FFFFFF; }
+
+ul {
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  border-top: 2px solid;
+  border-bottom: 1px solid;
+  text-align: center; }
+
+li {
+  display: inline; }
+
+p {
+  text-align: center; }
+
+a {
+  color: #FF0000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 4px; }
+
+/*# sourceMappingURL=estilos.css.map */

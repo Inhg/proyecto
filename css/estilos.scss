@@ -1,0 +1,75 @@
+@mixin titulos{
+font-family: Georgia, serif;
+font-size: 30px;
+font-weight: bold;
+text-transform: uppercase;
+	
+}
+
+h1 {
+ @include titulos;
+ color: #00FF00;	
+}
+
+h2 {
+ @include titulos;
+ color: #FE2E64;	
+}
+
+h3 {
+ @include titulos;
+ color: #8258FA;	
+}
+
+
+$red: #FF0000;
+$txt-size: 30px;
+$white: #FFFFFF;
+
+ 
+body{
+   	font:{
+	family:fantasy;
+	size:$txt-size;
+	weight:bold;}
+	background-color:$red; 
+}
+
+.pagina {
+	max-width:940px;
+	min-width:720px;
+	margin:auto;
+	padding:20px;
+	border:4px double;
+	background-color: $white;
+}
+
+
+ul{
+	
+	width:600px;
+	padding:10px;
+	margin:auto;
+	border-top:2px solid;
+	border-bottom:1px solid;
+	text-align:center;        
+}
+
+li{
+	
+	display:inline;
+}
+
+p{
+	text-align:center;
+}
+
+
+
+a{
+	color:$red;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:4px;
+
+}
